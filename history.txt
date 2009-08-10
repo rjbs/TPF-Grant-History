@@ -31,16 +31,17 @@
 08   - Michael Schwern  -  3,000  - Test::Builder 2                     - ?
 08   - Michael Schwern  -  1,500  - fix the y2038 bug                   - PASS
 08   - Alan Haggai Alavi-  1,500  - fix bugs in Archive::Zip            - ?
-08   - Daniel Ruoso     -  2,500  - SMOP C runtime for Perl 6           - ?
-08   - Colin Smith      -  1,800  - Extending BSDPAN                    - ?
+08   - Daniel Ruoso     -  2,500  - SMOP C runtime for Perl 6           - PASS
+08   - Colin Smith      -  1,800  - Extending BSDPAN                    - FAIL
 08   - Vadim Konovalov  -  2,500  - Cross Compilation for Linux / WinCE - ?
 08   - Vadim Konovalov  -  1,000  - Tcl/Tk access for Raduko            - ?
 08   - Kieren Diment    -  2,500  - The Perl Survey                     - ?
 08   - Sebastian Riedel -  3,000  - The Mojo Documentation Project      - ?
 08   - Leon Timmermans  -  3,000  - Embedding Perl into C++ Apps        - ?
 08   - Dave Rolsky      -  3,000  - Moose documentation                 - PASS
-08   - Gabor Szabo      -  1,500  - Integrate Padre with Parrot/Rakudo  - ?
-
+08   - Gabor Szabo      -  1,500  - Integrate Padre with Parrot/Rakudo  - FAIL
+09   - Eric and Tina    -  2,000  - Improving learn.perl.org            - ?
+09   - Ilya, Carl, Stephen - 3,000 - A lightweight web framework for Perl 6 - ?
+09   - Ricardo Signes   -  ?      - Pod Mangling Utility Improvements   - ?
 
 ??   - Shlomi Fish      - ?       - XML::RSS cleanup                    - PASS
-
