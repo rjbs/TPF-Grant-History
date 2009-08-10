@@ -1,0 +1,15 @@
+#!env perl
+use strict;
+use YAML::XS qw(LoadFile);
+my @files = `find 200? -type f`;
+chomp @files;
+
+for my $file (sort @files) {
+  my ($grant) = LoadFile($file);
+  # UTF + YAML + hate.  Some names don't line up. -- rjbs, 2009-08-10
+  printf "%-20s - %6s - %30s - %7s\n",
+    substr($grant->{grantee}  || '??', 0, 20),
+    substr($grant->{amount}   || '??', 0,  6),
+    substr($grant->{abstract} || '??', 0, 30),
+    substr($grant->{result}   || '??', 0, 7),
+}
