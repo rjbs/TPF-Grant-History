@@ -1,2 +1,7 @@
 ---
-# 03q2 - Arthur Bergman   -  2,000  - perl threading and POE threading    - FAIL
+grantee : Arthur Bergman
+amount  : 2000
+abstract: perl threading and POE threading
+began   : 2009-04
+ended   : ~
+result  : fail

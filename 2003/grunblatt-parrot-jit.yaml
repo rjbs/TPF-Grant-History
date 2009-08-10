@@ -1,2 +1,7 @@
 ---
-# 03q2 - Arthur Bergman   -  2,000  - perl threading and POE threading    - FAIL
+grantee : Daniel Grunblatt
+amount  : 2000
+abstract: extend Parrot JIT to emit an binary
+began   : 2003-04
+ended   : ~
+result  : fail

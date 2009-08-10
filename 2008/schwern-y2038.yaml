@@ -1,2 +1,7 @@
 ---
-# 08   - Michael Schwern  -  1,500  - fix the y2038 bug                   - PASS
+grantee : Michael Schwern
+amount  : 1500
+abstract: fix the y2038 bug
+began   : 2008
+ended   : 2008
+result  : pass

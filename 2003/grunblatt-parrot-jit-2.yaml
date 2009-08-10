@@ -1,2 +1,7 @@
 ---
-# 03q3 - Daniel Grunblatt -  2,000  - port Parrot JIT to IA-64 and HPPA   - ?
+grantee : Daniel Grunblatt
+amount  : 2000
+abstract: port Parrot JIT to IA-64 and HPAA
+began   : 2003-07
+ended   : ~
+result  : ~

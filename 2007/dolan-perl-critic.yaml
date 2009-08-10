@@ -1,2 +1,7 @@
 ---
-# 07   - Chris Dolan      -  2,000  - finish TODO policies for Perl Critic- PASS
+grantee : Chris Dolan
+amount  : 2000
+abstract: finish TODO policies for Perl Critic
+began   : 2007
+ended   : 2007
+result  : pass

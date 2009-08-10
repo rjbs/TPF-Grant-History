@@ -1,2 +1,7 @@
 ---
-# 03q3 - Larry Wall       - 40,000  - design perl 6 object system         - PASS
+grantee : Larry Wall
+amount  : 40000
+abstract: design Perl 6 obcjet system
+began   : 2003-07
+ended   : ~
+result  : pass

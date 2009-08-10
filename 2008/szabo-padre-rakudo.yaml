@@ -1,2 +1,7 @@
 ---
-# 08   - Gabor Szabo      -  1,500  - Integrate Padre with Parrot/Rakudo  - FAIL
+grantee : Gabor Szabo
+amount  : 1500
+abstract: Integrate Padre with Parrot/Rakudo
+began   : 2008
+ended   : ~
+result  : fail

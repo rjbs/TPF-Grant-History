@@ -1,2 +1,7 @@
 ---
-# 04   - Adam Kennedy     -  3,500  - PPI                                 - PASS
+grantee : Adam Kennedy
+amount  : 3500
+abstract: PPI, the Perl Document Parser
+began   : 2004
+ended   : ~
+result  : pass

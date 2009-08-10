@@ -1,2 +1,7 @@
 ---
-# 08   - Daniel Ruoso     -  2,500  - SMOP C runtime for Perl 6           - PASS
+grantee : Daniel Ruoso
+amount  : 2500
+abstract: SMOP C runtime for Perl 6
+began   : 2008
+ended   : 2008
+result  : pass

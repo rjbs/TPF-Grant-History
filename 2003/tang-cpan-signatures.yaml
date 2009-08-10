@@ -1,2 +1,7 @@
 ---
-# 03q2 - A. Tang          -  2,000  - pubkey for CPAN.pm, M::B, and PAR   - PASS
+grantee : A. Tang
+amount  : 2000
+abstract: pubkey signatures for CPAN toolchain
+began   : 2003-04
+ended   : ~
+result  : pass

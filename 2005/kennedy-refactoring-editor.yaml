@@ -1,2 +1,12 @@
 ---
-# 05   - Adam Kennedy     -  5,000  - Extend PPI toward refactoring editor- *
+grantee : Adam Kennedy
+amount  : 5000
+abstract: Pod Mangling Utility Improvements
+began   : 2005
+ended   : 2006
+result  : special
+comments: |
+  Adam worked very long and hard on the roadblocks to his goal, including lack
+  of a suitable perl on Win32.  He finally created a new Perl distribution
+  for Win32, Vanilla, and it was decided that this was useful enough to call
+  the  grant a success.

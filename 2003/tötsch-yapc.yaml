@@ -1,2 +1,7 @@
 ---
-# 03q2 - Leopold Tötsch   -  1,000  - send Leopold to YAPC::EU            - PASS
+grantee : Leopold Tötsch
+amount  : 1000
+abstract: "attendance of YAPC::EU"
+began   : 2003-04
+ended   : 2003-06
+result  : pass

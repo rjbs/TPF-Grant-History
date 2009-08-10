@@ -1,2 +1,7 @@
 ---
-# 06   - Christopher Laco -  1,500  - Mango                               - FAIL
+grantee : Christopher Laco
+amount  : 1500
+abstract: Mango
+began   : 2006
+ended   : ~
+result  : fail

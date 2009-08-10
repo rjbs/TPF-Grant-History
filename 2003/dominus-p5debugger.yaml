@@ -1,2 +1,7 @@
 ---
-# 03q4 - Mark J. Dominus  -  3,500  - replace perl5 debugger              - FAIL
+grantee : Mark Jason Dominus
+amount  : 3500
+abstract: replace the perl5 debugger
+began   : 2009-10
+ended   : ~
+result  : fail

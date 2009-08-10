@@ -1,2 +1,7 @@
 ---
-# 06   - Nicholas Clark   - 11,000  - numerous improvements to perl 5     - PASS
+grantee : Nicholas Clark
+amount  : 11000
+abstract: numerous improvements to perl 5
+began   : 2006
+ended   : ~
+result  : pass

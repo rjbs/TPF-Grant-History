@@ -1,2 +1,7 @@
 ---
-# 08   - Dave Rolsky      -  3,000  - Moose documentation                 - PASS
+grantee : Dave Rolsky
+amount  : 3000
+abstract: Moose documentation
+began   : 2008
+ended   : 2009
+result  : pass
