@@ -1,0 +1,7 @@
+---
+grantee : Gerard Goossen
+amount  : 5000
+abstract: change the perl 5 optree build process into an AST and codegen
+began   : 2009-08
+ended   : ~
+result  : ~
