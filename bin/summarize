@@ -1,7 +1,7 @@
 #!env perl
 use strict;
 use YAML::XS qw(LoadFile);
-my @files = `find 200? -type f`;
+my @files = `find 20?? -type f`;
 chomp @files;
 
 for my $file (sort @files) {
