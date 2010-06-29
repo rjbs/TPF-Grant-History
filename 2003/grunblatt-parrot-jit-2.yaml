@@ -1,7 +1,0 @@
----
-grantee : Daniel Grunblatt
-amount  : 2000
-abstract: port Parrot JIT to IA-64 and HPAA
-began   : 2003-07
-ended   : ~
-result  : fail

@@ -1,0 +1,14 @@
+---
+grantee : Daniel Grunblatt
+amount  : 6000
+abstract: port Parrot JIT to IA-64 and HPAA
+began   : 2003-07
+ended   : ~
+result  : fail
+comments: |
+  Information on this grant is hazy.  There were some records (reflected in
+  earlier versions of this document) that showed two $2000 grants, but this
+  document now reflects the official TPF announcement of the grant, picked
+  up from http://www.perlfoundation.org/2003_grants_third_quarter
+
+  Discussion with #parrot seemed to indicate that this grant was not completed.
