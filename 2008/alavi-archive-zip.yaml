@@ -4,5 +4,5 @@ amount  : 1500
 abstract: "fix bugs in Archive::Zip"
 approved: 2008-06
 began   : 2008
-ended   : ~
-result  : ~
+ended   : 2010-03
+result  : pass

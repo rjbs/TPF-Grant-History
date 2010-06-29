@@ -3,5 +3,11 @@ grantee : Gerard Goossen
 amount  : 5000
 abstract: change the perl 5 optree build process into an AST and codegen
 began   : 2009-08
-ended   : ~
-result  : ~
+ended   : 2010-04
+result  : special
+comments: |
+  This grant was reported successfully closed 2010-04-05, but there was
+  significant contention from members of the perl5-porters group, and the
+  code written as part of this grant has not yet (as of 2010-06-29) been
+  merged to the perl core.  Among other references, see
+  http://news.perlfoundation.org/2010/04/grant-report-changing-the-perl.html
