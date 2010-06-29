@@ -4,4 +4,8 @@ amount  : 4000
 abstract: rework Parrot packfile code
 began   : 2003-04
 ended   : ~
-result  : ~
+result  : pass
+comments: |
+  Records of this grant are also hazy.  The pass is based on a brief discussion
+  with chromatic on #parrot on 2010-06-29; he believes this grant was completed
+  successfully.
