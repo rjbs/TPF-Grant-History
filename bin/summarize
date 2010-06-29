@@ -1,14 +1,18 @@
-#!env perl
+#!/usr/bin/env perl
 use strict;
 use Encode qw(encode);
 use YAML::XS qw(LoadFile);
 my @files = `find 20?? -type f`;
 chomp @files;
 
-for my $file (sort @files) {
-  my ($grant) = LoadFile($file);
+my %file = map {; $_ => (LoadFile($_))[0] } @files;
+
+for my $grant (
+  sort { $a->{began} cmp $b->{began} } values %file
+) {
   # UTF + YAML + hate.  Some names don't line up. -- rjbs, 2009-08-10
-  print encode('utf-8', sprintf "%-20s - %6s - %30s - %7s\n",
+  print encode('utf-8', sprintf "%-5s: %-20s - %6s - %30s - %7s\n",
+    substr($grant->{began}    || '??', 2),
     substr($grant->{grantee}  || '??', 0, 20),
     substr($grant->{amount}   || '??', 0,  6),
     substr($grant->{abstract} || '??', 0, 30),
