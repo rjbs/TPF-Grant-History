@@ -4,4 +4,9 @@ amount  : 2000
 abstract: internationalize slashcode
 began   : 2003-04
 ended   : ~
-result  : ~
+result  : fail
+comments: |
+  Audrey believes that the work was completed, but that the patch was rejected
+  by the core Slash team.  The second half of the grant was not paid out.
+  (Contrast to recent grants in which upstream rejected the work and the grant
+  was paid out anyway.)
