@@ -2,7 +2,6 @@
 grantee : Vadim Konovalov
 amount  : 2500
 abstract: Cross compilation for Linux/WinCE
-approved: 2008-08
 began   : 2008
 ended   : 2010-03
 result  : fail
