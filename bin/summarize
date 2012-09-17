@@ -5,16 +5,23 @@ use YAML::XS qw(LoadFile);
 my @files = `find 20?? -type f`;
 chomp @files;
 
-my %file = map {; $_ => (LoadFile($_))[0] } @files;
+my %file         = map {; $_ => (LoadFile($_))[0] } @files;
+my @known_params = qw<grantee amount abstract began ended result comments>;
 
 for my $grant (
   sort { $a->{began} cmp $b->{began} } values %file
 ) {
-  # UTF + YAML + hate.  Some names don't line up. -- rjbs, 2009-08-10
-  print encode('utf-8', sprintf "%-5s: %-20s - %6s - %30s - %7s\n",
-    substr($grant->{began}    || '??', 2),
-    substr($grant->{grantee}  || '??', 0, 20),
-    substr($grant->{amount}   || '??', 0,  6),
-    substr($grant->{abstract} || '??', 0, 30),
-    substr($grant->{result}   || '??', 0, 7));
+    # check for recognized parameters:
+    foreach my $key ( keys %{$grant} ) {
+        grep { $_ eq $key } @known_params
+            or warn "Unknown paramter: $key in", $grant->{abstract}, "\n";
+    }
+
+    # UTF + YAML + hate.  Some names don't line up. -- rjbs, 2009-08-10
+    print encode('utf-8', sprintf "%-5s: %-20s - %6s - %30s - %7s\n",
+      substr($grant->{began}    || '??', 2),
+      substr($grant->{grantee}  || '??', 0, 20),
+      substr($grant->{amount}   || '??', 0,  6),
+      substr($grant->{abstract} || '??', 0, 30),
+      substr($grant->{result}   || '??', 0, 7));
 }
