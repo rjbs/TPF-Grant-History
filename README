@@ -1,0 +1,18 @@
+This lists the history of grants given by TPF (The Perl Foundation). This
+contains information on what grants were given (ordered by year), to whom they
+were granted, for what project and what were the resulting outcome.
+
+Each grant has the following information:
+* "grantee": the person(s) to whom the grant was given
+* "amount": grant amount
+* "abstract": A short description of the grant
+* "began": when the grant began
+* "ended": when the grant ended
+* "result": was the grant successful or not
+* "comments": optional commentary on the grant or grant conditions
+
+Some ordering rules:
+* Grants are listed by the year they started
+* Beginning dates refer to when the grant started
+* Ending date refers to when TPF decided the grant was done, not when the grantee decided it will be done
+
